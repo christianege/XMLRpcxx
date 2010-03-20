@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/TestXml.dir/TestXml.cpp.o  -o ../bin/TestXml -rdynamic ../lib/libXmlRpc.a 

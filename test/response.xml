@@ -1,0 +1,17 @@
+HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Server: MS .NET Remoting, MS .NET CLR 2.0.50727.42
+Content-Length: 161
+
+<?xml version="1.0"?>
+<methodResponse>
+<params>
+<param>
+<value>
+<string />
+</value>
+</param>
+</params>
+</methodResponse>

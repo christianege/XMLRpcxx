@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chris/workspace/xmlrpc/test/TestXml.cpp
+iostream
+-
+string
+-
+assert.h
+-
+stdlib.h
+-
+XmlRpcUtil.h
+/home/chris/workspace/xmlrpc/test/XmlRpcUtil.h
+
+include/XmlRpcUtil.h
+string
+-
+
