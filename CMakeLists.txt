@@ -1,4 +1,6 @@
 # This is a cmake file for the XmlRpc++ library
+# maybee this works also with previos versions of cmake,
+# but it is not tested
 cmake_minimum_required(VERSION 2.6)
 
 project( libXmlRpcxx )
@@ -20,6 +22,7 @@ set(SOURCES
   README.html
 )
 
+# check for visual studio 
 if(MSVC)
 add_definitions( 
   -DWIN32
@@ -31,6 +34,7 @@ endif()
 
 ADD_LIBRARY(XmlRpc STATIC ${SOURCES})
 
+# ad special link target for visual studio 
 if(MSVC)
 target_link_libraries( XmlRpc ws2_32 )
 endif()
