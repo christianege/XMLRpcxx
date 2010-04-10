@@ -1,0 +1,32 @@
+How to build
+============
+
+The XMLRpcxx project uses CMake to build.
+
+Building on Linux
+-----------------
+
+For out-of-source build, first we have to create an subdirectory and change to it :
+
+  mkdir linux-build
+  cd linux-build/
+
+The next step is to call cmake:
+
+  cmake ../
+
+This creates an standard Makefile for linux if you want a specific project/build file this is provided by the “-G” Flag.
+
+  cmake -G"Eclipse CDT4 - Unix Makefiles" ../
+
+Build with debug informations
+-----------------------------
+
+To enable debug informations you have to specify an build type
+
+  cmake -G"Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug ../
+
+Cross-Compiling
+---------------
+
+  cmake -DCMAKE_TOOLCHAIN_FILE=../tool-chains/eldk-ppc6xx.cmake ..

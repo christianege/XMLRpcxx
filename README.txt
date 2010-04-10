@@ -18,3 +18,13 @@ Features
       compiler (g++ 3.1 or MSVC++ .Net or MSVC++ 6 with the STL patches.)
 
     - Free   This library is released under the GNU LGPL.
+
+LICENCE
+-------
+
+This library is released under the GNU LGPL. For licence information see COPYING file.
+
+INSTALL
+-------
+
+See INSTALL file
