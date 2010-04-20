@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/TestValues.dir/TestValues.cpp.o  -o ../bin/TestValues -rdynamic ../lib/libXmlRpc.a 

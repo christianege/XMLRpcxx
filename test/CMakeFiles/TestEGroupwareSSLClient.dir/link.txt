@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/TestEGroupwareSSLClient.dir/TestEGroupwareSSLClient.cpp.o  -o ../bin/TestEGroupwareSSLClient -rdynamic ../lib/libXmlRpc.a 

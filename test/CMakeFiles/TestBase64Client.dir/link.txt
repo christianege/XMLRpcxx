@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/TestBase64Client.dir/TestBase64Client.cpp.o  -o ../bin/TestBase64Client -rdynamic ../lib/libXmlRpc.a 
